@@ -54,7 +54,7 @@ function getUserInfo() {
 function renderAvatar(user) {
 
     //1.获取用户的名称
-    var name = user.username || user.nickname;
+    var name = user.nickname || user.nickname;
     //2.设置欢迎的文本
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
 
